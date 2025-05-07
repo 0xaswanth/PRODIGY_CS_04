@@ -1,74 +1,61 @@
-# PRODIGY_CS_04
+PRODIGY_CS_04
 
-# Task-04: Simple Keylogger  
-**ProDigy Infotech Internship Project**
+# Task-04: Simple Keylogger
 
-## 📝 Project Description
-This project demonstrates how to build a **basic keylogger** using Python. The program listens for keyboard inputs and logs every keystroke into a file for review. This keylogger is intended strictly for **educational purposes** and **must only be used with explicit consent** from all users being monitored.
+## ✨ Project Name:
+**Simple Keylogger**
 
----
+## 🏢 Organization:
+**ProDigy Infotech**
 
-## ⚠️ Ethical Consideration
-> This tool must **never** be used for malicious purposes or without the explicit permission of the user. Unauthorized keylogging is **illegal and unethical**.
+## 📌 Task Description:
+Create a basic keylogger program that records and logs keystrokes. Focus on logging the keys pressed and saving them to a file.
 
----
+> 🔒 Note: Ethical considerations and permissions are crucial for projects involving keyloggers. This tool is only for educational use.
 
-## 📁 Features
-- Logs all keystrokes (including special keys like Enter, Space, Backspace).
-- Saves logs in a timestamped `.txt` file inside a `logs/` directory.
-- Stops logging when the **Escape** key is pressed.
+## 🚀 Features:
+- Records all keystrokes including alphanumeric and special keys.
+- Automatically creates a timestamped log file.
+- Stores logs in a `logs/` directory.
+- Press `Esc` key to stop recording and save the log file.
 
----
+## 🛠️ Tools & Technologies Used:
+- **Language**: Python
+- **Library**: `pynput`
 
-## 🛠️ Requirements
-- Python 3.x
-- [`pynput`](https://pypi.org/project/pynput/) library
+## 📂 How to Run:
+1. Install the required Python module:
+    ```bash
+    pip install pynput
+    ```
+2. Run the script:
+    ```bash
+    python keylogger.py
+    ```
+3. Press `Esc` key to stop the logger.
+4. Check the `logs/` folder for the generated log file.
 
-Install required dependency:
-```bash
-pip install pynput
-```
-
----
-
-## 🚀 How to Run
-1. Clone or download the repository.
-2. Navigate to the directory containing the Python file.
-3. Run the script using:
-```bash
-python keylogger.py
-```
-4. Press the **Escape** key (`Esc`) to stop the keylogger.
-5. The output log file will be saved in the `logs/` folder.
-
----
-
-## 📂 Output
-- Log files are saved with the format: `KeyLog_YYYY-MM-DD_HH-MM-SS.txt`
-- Example log entry:
+## 📁 Output Example:
 ```
 Keylogger Log File
 Session started: 2025-05-07 10:30:00
 
-h
+H
 e
 l
 l
 o
 Key.space
-w
+W
 o
 r
 l
 d
+Key.enter
 ```
 
----
+## ⚠️ Disclaimer:
+This keylogger is developed strictly for **educational purposes**. Unauthorized usage on other systems or without consent is unethical and illegal.
 
-## 👨‍⚖️ Disclaimer
-This script is designed for **learning** and **demonstration** purposes only. Do not use it to monitor anyone's activity without proper authorization.
-
----
-
-## 📧 Contact
-For any queries related to the project, please contact your internship coordinator at **ProDigy Infotech**.
+## 🙋 Author:
+This task was completed as part of the internship at **ProDigy Infotech**.
